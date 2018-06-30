@@ -32,6 +32,7 @@ namespace SupremumStudio
         private void OnDisable()
         {
             DisableMark(this);
+            gameObject.SetActive(false); //TODO: Дичь еб**нная
         }
     }
     

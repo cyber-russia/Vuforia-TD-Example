@@ -9,6 +9,7 @@ namespace SupremumStudio
 		public Spawner Spawner;
 
 		private PoolObject enemyPool;
+
 		private GameObject _modelBuilding;
 //		[SerializeField] private float rate;
 		private int curent;
@@ -33,7 +34,9 @@ namespace SupremumStudio
 			
 			for (int i = curent; i < Spawner.CountEnemy; i++)
 			{
-				enemyPool.GetPoolObject();
+				var enemy = enemyPool.GetEnemy();
+				enemy.Speed = Spawner.Speedenemy;
+				
 				curent++;
 				yield return new WaitForSeconds(Spawner.RateInstantce);
 			}
@@ -42,13 +45,14 @@ namespace SupremumStudio
 
 		public void StartWave()
 		{
+//			curent = 0;
 			StartCoroutine(CreateEnemy());
 		}
 
 		private void OnEnable()
 		{
 			Time.timeScale = 1;
-			StartWave();
+//			StartWave();
 			_modelBuilding.SetActive(true);
 		}
 

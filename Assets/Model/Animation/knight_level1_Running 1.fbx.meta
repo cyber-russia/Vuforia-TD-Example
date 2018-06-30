@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: a71a0ca24c6bd914e8c30efdb8df8438
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: knight.004
+    100006: //RootNode
+    100008: Lamp
+    100010: mixamorig:Head
+    100012: mixamorig:HeadTop_End
+    100014: mixamorig:HeadTop_End_end
+    100016: mixamorig:Hips
+    100018: mixamorig:LeftArm
+    100020: mixamorig:LeftFoot
+    100022: mixamorig:LeftForeArm
+    100024: mixamorig:LeftHand
+    100026: mixamorig:LeftHand_end
+    100028: mixamorig:LeftLeg
+    100030: mixamorig:LeftShoulder
+    100032: mixamorig:LeftToe_End
+    100034: mixamorig:LeftToe_End_end
+    100036: mixamorig:LeftToeBase
+    100038: mixamorig:LeftUpLeg
+    100040: mixamorig:Neck
+    100042: mixamorig:RightArm
+    100044: mixamorig:RightFoot
+    100046: mixamorig:RightForeArm
+    100048: mixamorig:RightHand
+    100050: mixamorig:RightHand_end
+    100052: mixamorig:RightLeg
+    100054: mixamorig:RightShoulder
+    100056: mixamorig:RightToe_End
+    100058: mixamorig:RightToe_End_end
+    100060: mixamorig:RightToeBase
+    100062: mixamorig:RightUpLeg
+    100064: mixamorig:Spine
+    100066: mixamorig:Spine1
+    100068: mixamorig:Spine2
+    400000: Armature
+    400002: Camera
+    400004: knight.004
+    400006: //RootNode
+    400008: Lamp
+    400010: mixamorig:Head
+    400012: mixamorig:HeadTop_End
+    400014: mixamorig:HeadTop_End_end
+    400016: mixamorig:Hips
+    400018: mixamorig:LeftArm
+    400020: mixamorig:LeftFoot
+    400022: mixamorig:LeftForeArm
+    400024: mixamorig:LeftHand
+    400026: mixamorig:LeftHand_end
+    400028: mixamorig:LeftLeg
+    400030: mixamorig:LeftShoulder
+    400032: mixamorig:LeftToe_End
+    400034: mixamorig:LeftToe_End_end
+    400036: mixamorig:LeftToeBase
+    400038: mixamorig:LeftUpLeg
+    400040: mixamorig:Neck
+    400042: mixamorig:RightArm
+    400044: mixamorig:RightFoot
+    400046: mixamorig:RightForeArm
+    400048: mixamorig:RightHand
+    400050: mixamorig:RightHand_end
+    400052: mixamorig:RightLeg
+    400054: mixamorig:RightShoulder
+    400056: mixamorig:RightToe_End
+    400058: mixamorig:RightToe_End_end
+    400060: mixamorig:RightToeBase
+    400062: mixamorig:RightUpLeg
+    400064: mixamorig:Spine
+    400066: mixamorig:Spine1
+    400068: mixamorig:Spine2
+    2000000: Camera
+    2100000: No Name
+    4300000: knight.004
+    7400000: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.000
+    7400002: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.001
+    7400004: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.002
+    7400006: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.003
+    7400008: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.004
+    7400010: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.005
+    7400012: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.006
+    7400014: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.007
+    7400016: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.008
+    7400018: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.009
+    7400020: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.010
+    7400022: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.011
+    7400024: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.012
+    7400026: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.013
+    7400028: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.014
+    7400030: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay.015
+    7400032: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0.
+    7400034: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|
+    7400036: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.000
+    7400038: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.001
+    7400040: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.002
+    7400042: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.003
+    7400044: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.004
+    7400046: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.005
+    7400048: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.006
+    7400050: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|A.007
+    7400052: Armature|Armature|Armature|Armature|mixamo.com|Layer0.001|Armature|Armat
+    7400054: Armature|Armature|Armature|Armature|mixamo.com|Layer0.002|Armature|A.000
+    7400056: Armature|Armature|Armature|Armature|mixamo.com|Layer0.002|Armature|A.001
+    7400058: Armature|Armature|Armature|Armature|mixamo.com|Layer0.002|Armature|A.002
+    7400060: Armature|Armature|Armature|Armature|mixamo.com|Layer0.002|Armature|Armat
+    7400062: Armature|Armature|Armature|Armature|mixamo.com|Layer0.003|Armature|Armat
+    7400064: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.000
+    7400066: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.001
+    7400068: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.002
+    7400070: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.003
+    7400072: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.004
+    7400074: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.005
+    7400076: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.006
+    7400078: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.007
+    7400080: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.008
+    7400082: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armat.009
+    7400084: Armature|Armature|Armature|Armature|mixamo.com|Layer0|Armature|Armature|
+    7400086: Armature|Armature|mixamo.com|Layer0
+    7400088: Armature|Armature|mixamo.com|Layer0.001
+    7400090: Armature|Armature|mixamo.com|Layer0.002
+    7400092: Armature|Armature|mixamo.com|Layer0.003
+    7400094: Armature|Armature|mixamo.com|Layer0.004
+    9500000: //RootNode
+    10800000: Lamp
+    13700000: knight.004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,7 +8,77 @@ namespace SupremumStudio
     {
         public static GameManager Instance;
         public PathBuilder PathBuilder;
-        
+
+        public List<Marker> Markers = new List<Marker>();
+
+        public static bool Scan = true; //для вноса меток.
+
+
+        void AddMarker(Marker m)
+        {
+            if (!Scan) return;
+
+            if (!Markers.Contains(m))
+            {
+                Markers.Add(m);
+            }
+        }
+
+        bool CheckPath() //провереям есть ли среди меток спавн и башня. (минимальное количество для создания меток)
+        {
+            bool isCastle = false;
+            bool isSpawn = false;
+            foreach (var marker in Markers)
+            {
+                if (marker.TargetType == MarkerType.SPAWN)
+                {
+                    isSpawn = true;
+                }
+
+                if (marker.TargetType == MarkerType.CASTLE)
+                {
+                    isCastle = true;
+                }
+            }
+
+            if (isSpawn && isCastle)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        void LostMarker(Marker m)
+        {
+            if (Markers.Contains(m))
+            {
+                print("Lost");
+                Time.timeScale = 0;
+            }
+        }
+
+        bool CheckAllMarker()
+        {
+            foreach (var marker in Markers)
+            {
+                if (!marker.gameObject.activeInHierarchy)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        private void Update()
+        {
+            if (CheckAllMarker())
+            {
+                Time.timeScale = 1;
+            }
+        }
+
         void Singleton()
         {
             if (Instance == null)
@@ -23,13 +93,19 @@ namespace SupremumStudio
             DontDestroyOnLoad(this.gameObject);
         }
 
+
         private void Awake()
         {
+            Marker.EnableMark += AddMarker;
+            Marker.DisableMark += LostMarker;
+
             Singleton();
             if (!PathBuilder)
             {
                 Debug.Break();
             }
+
+            CheckAllMarker();
         }
     }
 }

@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LifeTime: 2
-  SpeedBullet: 3
+  SpeedBullet: 5
   AngleSpray: 0
   Damage: 0
 --- !u!135 &135218452227888920

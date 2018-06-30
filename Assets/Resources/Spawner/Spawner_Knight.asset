@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177420212aa7dd347a86655d9f75823b, type: 3}
+  m_Name: Spawner_Knight
+  m_EditorClassIdentifier: 
+  ModelPrefab: {fileID: 1191454176656590, guid: a43633c85529a1648855996d724943e3,
+    type: 2}
+  EnemyPrefab: {fileID: 1019728984739728, guid: df2371bff1d0c0c4c9b68014920b6e83,
+    type: 2}
+  CountEnemy: 10
+  Speedenemy: 3
+  RateInstantce: 2
+  Damage: 1

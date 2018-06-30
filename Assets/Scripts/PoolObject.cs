@@ -56,6 +56,25 @@ namespace SupremumStudio
             return obj.GetComponent<Bullet>();
         }
 
+        public Enemy GetEnemy() //TODO: change T
+        {
+            for (int i = 0; i < _pool.Count; i++)
+            {
+                if (!_pool[i].activeInHierarchy)
+                {
+                    _pool[i].SetActive(true);
+                    _pool[i].transform.localPosition = Vector3.zero;
+                    _pool[i].transform.rotation = Quaternion.Euler(Vector3.zero);
+
+                    return _pool[i].GetComponent<Enemy>();
+                }
+            }
+
+            var obj = CreateObj();
+            obj.SetActive(true);
+            return obj.GetComponent<Enemy>();
+        }
+        
         public GameObject GetPoolObject()
         {
             for (int i = 0; i < _pool.Count; i++)

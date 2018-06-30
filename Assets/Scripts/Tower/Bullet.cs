@@ -39,6 +39,7 @@ namespace SupremumStudio
         private void OnTriggerEnter(Collider other)
         {
             other.GetComponent<Enemy>().Health -= Damage;
+            gameObject.SetActive(false);
         }
     }
 }

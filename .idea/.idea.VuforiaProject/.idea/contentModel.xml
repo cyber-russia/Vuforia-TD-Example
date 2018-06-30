@@ -32,6 +32,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Castle" t="Include">
+            <e p="Castle.cs" t="Include" />
+            <e p="CastleController.cs" t="Include" />
+            <e p="CastleUIController.cs" t="Include" />
+          </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Marker.cs" t="Include" />
           <e p="PathBuilder.cs" t="Include" />
