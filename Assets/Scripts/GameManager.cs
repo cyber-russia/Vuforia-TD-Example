@@ -62,6 +62,7 @@ namespace SupremumStudio
 
         bool CheckAllMarker()
         {
+            
             foreach (var marker in Markers)
             {
                 if (!marker.gameObject.activeInHierarchy)
