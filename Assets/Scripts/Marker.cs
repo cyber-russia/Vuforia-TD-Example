@@ -25,14 +25,12 @@ namespace SupremumStudio
 
         private void OnEnable()
         {
-           
-            EnableMark(this);    
+           EnableMark(this);    
         }
 
         private void OnDisable()
         {
             DisableMark(this);
-            gameObject.SetActive(false); //TODO: Дичь еб**нная
         }
     }
     

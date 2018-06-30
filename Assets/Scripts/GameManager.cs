@@ -14,15 +14,7 @@ namespace SupremumStudio
         public static bool Scan = true; //для вноса меток.
 
 
-        void AddMarker(Marker m)
-        {
-            if (!Scan) return;
-
-            if (!Markers.Contains(m))
-            {
-                Markers.Add(m);
-            }
-        }
+      
 
         bool CheckPath() //провереям есть ли среди меток спавн и башня. (минимальное количество для создания меток)
         {
@@ -49,6 +41,16 @@ namespace SupremumStudio
             return false;
         }
 
+        void AddMarker(Marker m)
+        {
+
+            if (!Markers.Contains(m))
+            {
+                Markers.Add(m);
+            }
+            OnTimeScale();
+        }
+        
         void LostMarker(Marker m)
         {
             if (Markers.Contains(m))
@@ -71,7 +73,7 @@ namespace SupremumStudio
             return true;
         }
 
-        private void Update()
+        void OnTimeScale()
         {
             if (CheckAllMarker())
             {
