@@ -24,7 +24,9 @@ namespace SupremumStudio
 		{
 			enemyPool = new PoolObject(Spawner.EnemyPrefab,Spawner.CountEnemy,new GameObject("Enemies"));
 			_modelBuilding = Instantiate(Spawner.ModelPrefab, transform.position, Quaternion.identity);
-			_modelBuilding.transform.SetParent(transform);	
+			_modelBuilding.transform.SetParent(transform);
+			
+			GameManager.StartGame += StartWave;
 
 		}
 

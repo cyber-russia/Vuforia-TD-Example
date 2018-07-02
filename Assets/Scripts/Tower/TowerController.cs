@@ -15,6 +15,12 @@ namespace SupremumStudio
             _modelTower = Instantiate(Tower.TowerModel, transform.position, transform.rotation, transform);
             _modelTower.name = "Tower";
             bulletPool = new PoolObject(Tower.Bullet, 20, new GameObject("Bullets"));
+            
+            GameManager.StartGame += StartFire;
+        }
+
+        public void StartFire()
+        {
             InvokeRepeating("Fire", 3, 0.3f);
         }
 

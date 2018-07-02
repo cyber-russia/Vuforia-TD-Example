@@ -1,20 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace SupremumStudio
 {
+    public delegate void DelegateManager();
+
     public class GameManager : MonoBehaviour
     {
+        public static event DelegateManager ScaningComplete = () => { print("Scaning off"); };
+        public static event DelegateManager StartGame = () => { print("startGame");};
+        public Button StargGameButton; 
+        public GameObject UI_Panel_Scaner;
+
+        void OnScanPanel()
+        {
+            
+        }
+
+        void OffScanPanel()
+        {
+            UI_Panel_Scaner.SetActive(false);
+        }
+
+        void OnButtonStart()
+        {
+            StargGameButton.gameObject.SetActive(true);
+        }
+
+
         public static GameManager Instance;
         public PathBuilder PathBuilder;
 
         public List<Marker> Markers = new List<Marker>();
 
-        public static bool Scan = true; //для вноса меток.
+        public List<GameObject> ImageTarget = new List<GameObject>();
 
+        private bool _scanComplete = false;
 
-      
+        bool CheckScan()
+        {
+            var _m = Markers.Count;
+            var _i = ImageTarget.Count;
+            if (_m == _i)
+            {
+                _scanComplete = true;
+                ScaningComplete(); // закончилось сканирование всех меток.
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         bool CheckPath() //провереям есть ли среди меток спавн и башня. (минимальное количество для создания меток)
         {
@@ -43,14 +82,14 @@ namespace SupremumStudio
 
         void AddMarker(Marker m)
         {
-
             if (!Markers.Contains(m))
             {
                 Markers.Add(m);
             }
+
             OnTimeScale();
         }
-        
+
         void LostMarker(Marker m)
         {
             if (Markers.Contains(m))
@@ -62,13 +101,16 @@ namespace SupremumStudio
 
         bool CheckAllMarker()
         {
-            
             foreach (var marker in Markers)
             {
                 if (!marker.gameObject.activeInHierarchy)
                 {
                     return false;
                 }
+            }
+            if (!_scanComplete)
+            {
+                CheckScan();
             }
 
             return true;
@@ -96,12 +138,14 @@ namespace SupremumStudio
             DontDestroyOnLoad(this.gameObject);
         }
 
-
         private void Awake()
         {
             Marker.EnableMark += AddMarker;
             Marker.DisableMark += LostMarker;
-
+            StartGame += OffScanPanel;
+            ScaningComplete += OnButtonStart;
+            
+            
             Singleton();
             if (!PathBuilder)
             {
@@ -110,5 +154,11 @@ namespace SupremumStudio
 
             CheckAllMarker();
         }
+
+        public void StartGames()
+        {
+            StartGame();
+        }
+
     }
 }
