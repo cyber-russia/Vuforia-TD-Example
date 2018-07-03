@@ -16,7 +16,7 @@ public class Spawner : ScriptableObject
 	public int CountEnemy;
 	
 	[Header("Укажите скорость перемещения Enemy")]
-	[Range(1,25)]
+	[Range(0,25)]
 	public float Speedenemy;
 
 	[Header("Укажите частоту создания противника")]

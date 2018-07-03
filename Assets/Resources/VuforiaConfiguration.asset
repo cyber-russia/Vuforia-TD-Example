@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: Af+4aUL/////AAABma2b1uZliEoUnlxy0p1Mmnx81y3tRSsguFqcqEZSWnREh7CzsiDUG8ccaK4y6D+slQb8G9LNACUH7ZBsivkQSNzGVYI9Fcu/Upe4l0m7eoHrV84rdTYd8CJk8jnSp7Ij5yDoAfcq/UIqA997gDaOg+cFS8DUCvYFxMmrN21zwhLMSKAvq7uMF6Xqhh4y5Prc3hEFCPxGoEqH5QEPWG99bsBwNGPJ+q8qfqCXtkVJXriKAiTlmmemski1mxaQHmpMqlPUze4sp6QwZAO/986rRbBRd9J63M49Iv1ZcR43FF0ErwxYgBGhnvVgr5MHfpwaG2sNZT2TMjsWYfS6EOhDhALhOAHwwRChRN8N+bcbDIDX
+    vuforiaLicenseKey: AXomUc7/////AAAAmWRmJ7RU9U0fu3d5ae0nqDd4jWzEJJiguKajnuhDeq19atxfTG/hoAeE39+Y0z6Hv+TTzUZ2hEhVIB8uOBWJa69j6A0yuLwGHL6UtCUFE3EACI6L8DoX5E8ZfS6Laih9MztGrlh/G/plrGZv4bsWyweInz+eyRMHXyTG9Q6033jtEC8hQuuu61pO6DuLLx0RcN4FaWeEg0buHhCxtaA2YRhZcxnusuLz8ksk2OcWbKXkFpqeJxD8ICDsrgnFTL5xNdOj0VaTyp+2CkS4nTHpCLvJYlfPeZqzuJtXstH2P69GnmpAb5x1Ror7dk1wYF2Yc3mBOMGwNJ8tBbXS5vvKdAnoy5lPMALKpu2oG7NP6gxd
     ufoLicenseKey: QWQ1TjZhYi8vLy8vQUFBQUtHSlhtUTQrZWtKWXFtWlQvNTlyRFZvemo3eWFxaWNwZi9xb09lekhyVDhLVEVZbXYzOWVvcVBxYzhGRUxkR2NWT0p1Ymx6cVMyb2RFb1NhZ2FNY1FXTVZtU0pZeXZibTg0TlBwVmJNYzd0ZEdieVkvREVCWDNMTVljVmRONnJCekd5V2hFNjlweE5va3R6WEdrYUxsV1V1RkEyaW0zQ3lSalluUmZNWnlYeCs5VktzMGRaVTVDZWoycUhMMTBpV0M5ZzFpcHFLbDV0dHljM1d6MUpYNVVCbnU5bklvYnNqejBsY2FPOEEycUQ1alV1TWMweVpIRVBEc01wT0JGLzlkdmZRN25GUTJzQ1RFY25Kd05MQ0Y4dzVZUG44Z3NTN3krempJZ0UzSTN0UjRVNTlCQ3hXcW1sS29mRlRDL2Y2UXVJNlR2SURqMHdXQTR5QWNPNmxLMXJsQ2F4cVY1dmtMUCtIZXpNbEZzRlc=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
-    maxSimultaneousObjectTargets: 4
+    maxSimultaneousImageTargets: 10
+    maxSimultaneousObjectTargets: 10
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: HD Pro Webcam C920
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30

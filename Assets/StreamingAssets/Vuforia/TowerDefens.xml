@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="way_C_D" size="0.100000 0.094082" />
+    <ImageTarget name="wa_A_B" size="0.100000 0.094082" />
+    <ImageTarget name="cannon_3" size="0.100000 0.100000" />
+    <ImageTarget name="cannon_2" size="0.100000 0.100000" />
+    <ImageTarget name="cannon_1" size="0.100000 0.100000" />
+    <ImageTarget name="way_E_F" size="0.100000 0.094082" />
+    <ImageTarget name="zombie" size="0.100000 0.130563" />
+    <ImageTarget name="castle" size="0.100000 0.083141" />
+  </Tracking>
+</QCARConfig>

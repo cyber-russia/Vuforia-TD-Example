@@ -86,14 +86,14 @@ namespace SupremumStudio
 		private void OnDisable()
         {              
 			///////////// Дописать логику проигрыша
-            if (SpawnController.Curent == CountEnemy)
+            if (SpawnController.Curent == CountEnemy && GameManager.Instance.isStartgame)
             {
 	            print(SpawnController.EnemyPool.PoolObjects);
                 foreach (var item in SpawnController.EnemyPool.PoolObjects)
                 {
                     if (item.activeSelf) return;
                 }
-                CastleUIController.CallOnEndGame("Башня не завоевана");
+                CastleUIController.CallOnEndGame("Башня не завоевана Из OnDisaibleEnemy");
             }
 			transform.position = _startPosition;
 		_countWayPoint = 0; // TODO: ПОчему заблочена? 

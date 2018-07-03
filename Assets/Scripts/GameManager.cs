@@ -24,7 +24,7 @@ namespace SupremumStudio
         public List<GameObject> ImageTarget = new List<GameObject>();
 
         private bool _scanComplete = false;
-        private bool isStartgame =false;
+        public bool isStartgame =false;
         public static bool End = false;
 
         void OnScanPanel()

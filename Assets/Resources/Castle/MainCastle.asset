@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CastleModel: {fileID: 1478500746653496, guid: f7ebd36e68d7d5b4190304b35fc377c6,
     type: 2}
-  HealthCastle: 15
+  HealthCastle: 85

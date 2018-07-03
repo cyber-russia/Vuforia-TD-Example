@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd1f9b129934ce6af64a718e3743cb3, type: 3}
   m_Name: Tower
   m_EditorClassIdentifier: 
-  TowerModel: {fileID: 0}
+  TowerModel: {fileID: 1970524261667162, guid: db30ca4b820335444ba748ea49b8f3d1, type: 2}
   Bullet: {fileID: 1580334416007900, guid: def61e6d4bd3874438fac92fdfd67c90, type: 2}
   ShooterSpeed: 1
   SprayAngle: 4.83

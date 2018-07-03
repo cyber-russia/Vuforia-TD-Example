@@ -32,16 +32,17 @@ namespace SupremumStudio
 			_modelBuilding.transform.SetParent(transform);
 			
 			GameManager.StartGame += StartWave;
-
 		}
-
-
+		
+	    
+	    
 		IEnumerator CreateEnemy()
 		{
 			
 			for (int i = curent; i < Spawner.CountEnemy; i++)
 			{
 				var enemy = enemyPool.GetEnemy();
+				enemy.transform.position = transform.position; ///asdasda
 				enemy.Speed = Spawner.Speedenemy;
                 enemy.CountEnemy = Spawner.CountEnemy;
 				curent++;
@@ -66,7 +67,8 @@ namespace SupremumStudio
 		private void OnDisable()
 		{
 			Time.timeScale = 0;
-			_modelBuilding.SetActive(false);			
+			_modelBuilding.SetActive(false);
+			
 		}
 		
 	}
