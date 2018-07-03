@@ -13,7 +13,7 @@ namespace SupremumStudio
 		private int curentCountWayPoint;
 
 		public float Speed=1;
-
+        public int CountEnemy;
 
 		public int Damage = 10;
 		
@@ -84,7 +84,16 @@ namespace SupremumStudio
 		}
 
 		private void OnDisable()
-		{
+        {              
+			///////////// Дописать логику проигрыша
+            if (SpawnController.Curent == CountEnemy)
+            {
+                foreach (var item in SpawnController.EnemyPool.PoolObjects)
+                {
+                    if (item.activeSelf) return;
+                }
+                CastleUIController.CallOnEndGame("Башня не завоевана");
+            }
 			transform.position = _startPosition;
 		_countWayPoint = 0; // TODO: ПОчему заблочена? 
 		}

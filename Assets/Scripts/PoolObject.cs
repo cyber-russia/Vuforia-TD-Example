@@ -28,6 +28,11 @@ namespace SupremumStudio
             }
         }
 
+       public  List<GameObject> PoolObjects 
+        {
+            get { return _pool; }
+        }
+
         private GameObject CreateObj()
         {
             var o = GameObject.Instantiate(_prefabs); //todo: брать скиптейбл

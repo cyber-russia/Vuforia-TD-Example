@@ -17,5 +17,5 @@ MonoBehaviour:
     type: 2}
   CountEnemy: 5
   Speedenemy: 5.6
-  RateInstantce: 0.3
+  RateInstantce: 7.2
   Damage: 4

@@ -12,8 +12,8 @@ namespace SupremumStudio.Castle
         {
             _modelCastle = Instantiate(Castle.CastleModel, transform.position, transform.rotation, transform);
             _modelCastle.name = "MainCastle";
+            _modelCastle.GetComponent<CastleUIController>().HealthCastle = Castle.HealthCastle;
         }
-
 
         private void Awake()
         {

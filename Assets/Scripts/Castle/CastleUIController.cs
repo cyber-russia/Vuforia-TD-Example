@@ -4,9 +4,22 @@ using SupremumStudio;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
+
 public class CastleUIController : MonoBehaviour
 {
-	private float _healthCastle = 100;
+	public delegate void Death(string result);
+    public static event Death OnEndGame;
+
+    public static void CallOnEndGame(string result) {
+        if (OnEndGame != null)
+            OnEndGame(result);
+        
+    } 
+
+
+	private float _healthCastle;
 	public Image Background;
 	public Text UIHealth;
 	public float HealthCastle
@@ -21,9 +34,28 @@ public class CastleUIController : MonoBehaviour
 		}
 	}
 
+	private void Awake()
+	{
+        HealthCastle = 100;
+	}
+
 	private void OnTriggerEnter(Collider other)
 	{
-		print(1231231);
-		HealthCastle -= other.GetComponent<Enemy>().Damage;
-	}
+        //print(1231231);
+        var enemy = other.GetComponent<Enemy>();
+		HealthCastle -= enemy.Damage;
+        enemy.gameObject.SetActive(false);
+        if (HealthCastle <= 0) 
+        {
+			OnEndGame("Башня завоевана");
+        }
+        else if (SpawnController.Curent == enemy.CountEnemy) 
+        {
+            foreach (var item in SpawnController.EnemyPool.PoolObjects)
+            {
+                if (item.activeSelf) return;
+            }
+            OnEndGame("Башня не завоевана");                 
+        }
+    }
 }

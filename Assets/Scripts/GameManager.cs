@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 namespace SupremumStudio
 {
     public delegate void DelegateManager();
@@ -11,25 +11,11 @@ namespace SupremumStudio
     {
         public static event DelegateManager ScaningComplete = () => { print("Scaning off"); };
         public static event DelegateManager StartGame = () => { print("startGame");};
-        public Button StargGameButton; 
+        public Button StartGameButton;
+        public Button Continuebutton;
         public GameObject UI_Panel_Scaner;
-
-        void OnScanPanel()
-        {
-            
-        }
-
-        void OffScanPanel()
-        {
-            UI_Panel_Scaner.SetActive(false);
-        }
-
-        void OnButtonStart()
-        {
-            StargGameButton.gameObject.SetActive(true);
-        }
-
-
+        public GameObject EndPanel;
+        public Text endText;
         public static GameManager Instance;
         public PathBuilder PathBuilder;
 
@@ -37,7 +23,25 @@ namespace SupremumStudio
 
         public List<GameObject> ImageTarget = new List<GameObject>();
 
-        private bool _scanComplete = false;
+        //private bool _scanComplete = false;
+        private bool isStartgame =false;
+        public static bool End = false;
+
+        void OnScanPanel()
+		{
+			UI_Panel_Scaner.SetActive(true);
+		}
+		
+		void OffScanPanel()
+		{
+			UI_Panel_Scaner.SetActive(false);
+		}
+		
+		void OnButtonStart()
+		{
+            if(!isStartgame)
+                StartGameButton.gameObject.SetActive(true);
+		}
 
         bool CheckScan()
         {
@@ -45,7 +49,7 @@ namespace SupremumStudio
             var _i = ImageTarget.Count;
             if (_m == _i)
             {
-                _scanComplete = true;
+                //_scanComplete = true;
                 ScaningComplete(); // закончилось сканирование всех меток.
                 return true;
             }
@@ -87,7 +91,18 @@ namespace SupremumStudio
                 Markers.Add(m);
             }
 
-            OnTimeScale();
+            //OnTimeScale();
+             
+                
+            if (CheckAllMarker() && isStartgame)
+                Continuebutton.gameObject.SetActive(true);    
+        }   
+
+        public void Continue()
+        {
+            OffScanPanel();
+            Continuebutton.gameObject.SetActive(false);
+            Time.timeScale = 1;
         }
 
         void LostMarker(Marker m)
@@ -95,7 +110,17 @@ namespace SupremumStudio
             if (Markers.Contains(m))
             {
                 print("Lost");
-                Time.timeScale = 0;
+                //_scanComplete = false;
+                OnScanPanel();
+                if(isStartgame)
+                {
+					Continuebutton.gameObject.SetActive(false);
+					Time.timeScale = 0;
+                }
+                else
+                {
+                    StartGameButton.gameObject.SetActive(false);
+                }
             }
         }
 
@@ -108,11 +133,8 @@ namespace SupremumStudio
                     return false;
                 }
             }
-            if (!_scanComplete)
-            {
-                CheckScan();
-            }
 
+                CheckScan();
             return true;
         }
 
@@ -144,7 +166,7 @@ namespace SupremumStudio
             Marker.DisableMark += LostMarker;
             StartGame += OffScanPanel;
             ScaningComplete += OnButtonStart;
-            
+            CastleUIController.OnEndGame += EndGame;
             
             Singleton();
             if (!PathBuilder)
@@ -157,8 +179,20 @@ namespace SupremumStudio
 
         public void StartGames()
         {
+            StartGameButton.gameObject.SetActive(false);
+            isStartgame = true;
             StartGame();
         }
 
+        public void EndGame(string result)
+        {
+            endText.text = result;
+            EndPanel.SetActive(true);
+        }
+
+        public void restart()
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

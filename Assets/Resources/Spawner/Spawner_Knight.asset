@@ -16,6 +16,6 @@ MonoBehaviour:
   EnemyPrefab: {fileID: 1019728984739728, guid: df2371bff1d0c0c4c9b68014920b6e83,
     type: 2}
   CountEnemy: 10
-  Speedenemy: 3
-  RateInstantce: 2
+  Speedenemy: 2.6
+  RateInstantce: 0.3
   Damage: 1

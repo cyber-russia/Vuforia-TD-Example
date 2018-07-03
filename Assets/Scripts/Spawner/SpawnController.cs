@@ -4,17 +4,22 @@ using UnityEngine;
 
 namespace SupremumStudio
 {
-	public class SpawnController : MonoBehaviour
-	{
-		public Spawner Spawner;
+    public class SpawnController : MonoBehaviour
+    {
+        public Spawner Spawner;
 
-		private PoolObject enemyPool;
+        private static PoolObject enemyPool;
+
+        public static PoolObject EnemyPool
+        {
+            get { return enemyPool; }    
+        }
 
 		private GameObject _modelBuilding;
 //		[SerializeField] private float rate;
-		private int curent;
+		private static int curent;
 
-		public int Curent
+		public static int Curent
 		{
 			get { return curent; }
 			set { curent = value; }
@@ -38,7 +43,7 @@ namespace SupremumStudio
 			{
 				var enemy = enemyPool.GetEnemy();
 				enemy.Speed = Spawner.Speedenemy;
-				
+                enemy.CountEnemy = Spawner.CountEnemy;
 				curent++;
 				yield return new WaitForSeconds(Spawner.RateInstantce);
 			}
