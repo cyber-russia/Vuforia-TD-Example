@@ -88,6 +88,7 @@ namespace SupremumStudio
 			///////////// Дописать логику проигрыша
             if (SpawnController.Curent == CountEnemy)
             {
+	            print(SpawnController.EnemyPool.PoolObjects);
                 foreach (var item in SpawnController.EnemyPool.PoolObjects)
                 {
                     if (item.activeSelf) return;

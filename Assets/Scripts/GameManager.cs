@@ -23,13 +23,14 @@ namespace SupremumStudio
 
         public List<GameObject> ImageTarget = new List<GameObject>();
 
-        //private bool _scanComplete = false;
+        private bool _scanComplete = false;
         private bool isStartgame =false;
         public static bool End = false;
 
         void OnScanPanel()
 		{
-			UI_Panel_Scaner.SetActive(true);
+		    if(UI_Panel_Scaner != null)
+			    UI_Panel_Scaner.SetActive(true);
 		}
 		
 		void OffScanPanel()
@@ -39,7 +40,7 @@ namespace SupremumStudio
 		
 		void OnButtonStart()
 		{
-            if(!isStartgame)
+//            if(!isStartgame)
                 StartGameButton.gameObject.SetActive(true);
 		}
 
@@ -49,7 +50,7 @@ namespace SupremumStudio
             var _i = ImageTarget.Count;
             if (_m == _i)
             {
-                //_scanComplete = true;
+                _scanComplete = true;
                 ScaningComplete(); // закончилось сканирование всех меток.
                 return true;
             }
@@ -92,8 +93,10 @@ namespace SupremumStudio
             }
 
             //OnTimeScale();
-             
-                
+
+            if (CheckAllMarker() && !isStartgame && _scanComplete)
+                StartGameButton.gameObject.SetActive(true);  
+            
             if (CheckAllMarker() && isStartgame)
                 Continuebutton.gameObject.SetActive(true);    
         }   
@@ -114,11 +117,13 @@ namespace SupremumStudio
                 OnScanPanel();
                 if(isStartgame)
                 {
-					Continuebutton.gameObject.SetActive(false);
+                    if(Continuebutton != null)
+					    Continuebutton.gameObject.SetActive(false);
 					Time.timeScale = 0;
                 }
                 else
                 {
+                    if(StartGameButton != null)
                     StartGameButton.gameObject.SetActive(false);
                 }
             }
@@ -134,7 +139,10 @@ namespace SupremumStudio
                 }
             }
 
+            if (!_scanComplete)
+            {
                 CheckScan();
+            }
             return true;
         }
 

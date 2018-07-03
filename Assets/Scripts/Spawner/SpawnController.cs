@@ -19,7 +19,7 @@ namespace SupremumStudio
 //		[SerializeField] private float rate;
 		private static int curent;
 
-		public static int Curent
+		public static int Curent 
 		{
 			get { return curent; }
 			set { curent = value; }

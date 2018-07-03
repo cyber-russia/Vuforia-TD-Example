@@ -429,7 +429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &144539609
 Transform:
   m_ObjectHideFlags: 0
@@ -1179,9 +1179,6 @@ MonoBehaviour:
   Markers: []
   ImageTarget:
   - {fileID: 1589070967}
-  - {fileID: 1956535013}
-  - {fileID: 1795885467}
-  - {fileID: 144539608}
   - {fileID: 1356811162}
   - {fileID: 365978026}
   - {fileID: 2131759239}
@@ -2670,7 +2667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1795885468
 Transform:
   m_ObjectHideFlags: 0
@@ -2912,7 +2909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1956535014
 Transform:
   m_ObjectHideFlags: 0
