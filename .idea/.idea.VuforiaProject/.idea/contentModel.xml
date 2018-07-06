@@ -42,9 +42,13 @@
           <e p="PathBuilder.cs" t="Include" />
           <e p="PoolObject.cs" t="Include" />
           <e p="Refactoring" t="Include">
+            <e p="_deleeteMe_PoolTest.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
             <e p="EnumMareker.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="ImageTarget.cs" t="Include" />
+            <e p="PathBuilder.cs" t="Include" />
+            <e p="PoolObject.cs" t="Include" />
             <e p="TargetContent.cs" t="Include" />
             <e p="TrackerManager.cs" t="Include" />
             <e p="UIController.cs" t="Include" />

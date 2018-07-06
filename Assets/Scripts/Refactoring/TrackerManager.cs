@@ -22,9 +22,9 @@ namespace Refactoring
         }
 
         public static DelegateTrackerManager CallInitGame;
+        public static DelegateTrackerManager CallLostMarkerBeforeGame;
         public static DelegateTrackerManager CallPauseGame;
         public static DelegateTrackerManager CallContinueGame;
-        public static DelegateTrackerManager CallLostMarkerBeforeGame;
 
         private List<ImageTarget> _targets = new List<ImageTarget>();
         private List<TargetContent> _contents = new List<TargetContent>();

@@ -6,8 +6,10 @@
     public enum EnumMareker
     {
         CASTLE,
-        CANNON,
+        WAYPOINT1,
+        WAYPOINT2,
+        WAYPOINT3,        
         SPAWNENEMY,
-        WAYPOINT,
+        CANNON
     }
 }
