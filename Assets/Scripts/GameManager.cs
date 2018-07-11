@@ -94,7 +94,7 @@ namespace SupremumStudio
 
             //OnTimeScale();
 
-            if (CheckAllMarker() && !isStartgame && _scanComplete)
+            if (CheckAllMarker() && !isStartgame && _scanComplete)    
                 StartGameButton.gameObject.SetActive(true);  
             
             if (CheckAllMarker() && isStartgame)
@@ -197,7 +197,7 @@ namespace SupremumStudio
             endText.text = result;
             EndPanel.SetActive(true);
         }
-
+           
         public void restart()
         {
             SceneManager.LoadScene(0);

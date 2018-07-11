@@ -6,7 +6,7 @@ namespace SupremumStudio
 	public class Enemy : MonoBehaviour
 	{
 		[SerializeField]
-		private int _health;
+		public int _health;
 		private int _countWayPoint;
 		private List<Vector3> _ways;
 		private Vector3 _startPosition;
@@ -33,22 +33,7 @@ namespace SupremumStudio
 
 			}
 		}
-		
-		public int CountWayPoint
-		{
-			get { return _ways.Count; }
-			set
-			{
-				if (value > _ways.Count - 1 && value < 0)
-				{
-					return;
-				}
 
-				_countWayPoint = value;
-			}
-			
-		}
-		
 		private void Update()
 		{
 			if (_countWayPoint < _ways.Count)

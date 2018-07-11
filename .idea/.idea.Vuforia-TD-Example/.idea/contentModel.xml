@@ -6,6 +6,32 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CyberRussia" t="Include">
+          <e p="TD_ImageTarget" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Castle" t="Include">
+                <e p="Castle.cs" t="Include" />
+                <e p="CastleController.cs" t="Include" />
+              </e>
+              <e p="GameManager.cs" t="Include" />
+              <e p="Marker.cs" t="Include" />
+              <e p="MyTrackableEventHandler.cs" t="Include" />
+              <e p="PathBuilder.cs" t="Include" />
+              <e p="PoolObject.cs" t="Include" />
+              <e p="Spawn" t="Include">
+                <e p="EnemyController.cs" t="Include" />
+                <e p="Spawn.cs" t="Include" />
+                <e p="SpawnController.cs" t="Include" />
+              </e>
+              <e p="Tower" t="Include">
+                <e p="Bullet.cs" t="Include" />
+                <e p="Tower.cs" t="Include" />
+                <e p="TowerController.cs" t="Include" />
+              </e>
+              <e p="UIController.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Editor" t="Include">
           <e p="Vuforia" t="Include">
             <e p="CylinderTargetTextures" t="Include">
@@ -56,6 +82,7 @@
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
             <e p="Castle_01.xml" t="Include" />
+            <e p="creatures.xml" t="Include" />
             <e p="TowerDefens.xml" t="Include" />
             <e p="VuforiaMars_Images.xml" t="Include" />
             <e p="VuforiaMars_ModelTarget.xml" t="Include" />

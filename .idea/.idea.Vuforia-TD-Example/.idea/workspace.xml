@@ -2,25 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d77baf8a-dfcf-400b-bb0e-1a370e847b42" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/Castle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/Castle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PathBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PathBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PoolObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PoolObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/EnemyController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/EnemyController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/Spawn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/Spawn.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/SpawnController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/SpawnController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Bullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Tower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Tower.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/UIController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/UIController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vuforia-TD-Example/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vuforia-TD-Example/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vuforia-TD-Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vuforia-TD-Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LR.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LR.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullets.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Cannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Cannon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/kenvector_future.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/kenvector_future.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/kenvector_future_thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/kenvector_future_thin.ttf.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Castle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Castle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CompletePrefabs/Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Castle/MainCastle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Castle/MainCastle.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Spawner/Spawner_Knight.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Spawner/Spawner_Knight.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Towers/Tower.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Towers/Tower.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Marker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Marker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathBuilder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PathBuilder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PoolObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PoolObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,205 +56,170 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PoolObject.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PoolObject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
-              <folding>
-                <marker date="1530605307927" expanded="false" signature="6:52" ph="..." />
-                <marker date="1530605307927" expanded="true" signature="78:2849" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="108:2846" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="194:392" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="565:687" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="620:677" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="733:787" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="827:1059" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="1111:1668" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="1171:1542" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="1234:1528" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="1718:2273" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="1778:2148" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="1841:2134" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="2324:2835" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="2384:2732" ph="{...}" />
-                <marker date="1530605307927" expanded="true" signature="2447:2718" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpawnController.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
-              <folding>
-                <marker date="1530625664070" expanded="false" signature="6:78" ph="..." />
-                <marker date="1530625664070" expanded="true" signature="104:1580" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="155:1578" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="283:345" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="482:543" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="567:860" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="903:1276" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="964:1241" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="1303:1362" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="1389:1473" ph="{...}" />
-                <marker date="1530625664070" expanded="true" signature="1501:1572" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-              <folding>
-                <marker date="1530621618673" expanded="false" signature="6:52" ph="..." />
-                <marker date="1530621618673" expanded="true" signature="78:2060" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="116:2058" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="413:571" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="451:567" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="480:539" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="601:761" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="643:753" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="694:719" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="788:928" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="829:872" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="880:923" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="957:1295" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="1002:1251" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="1259:1291" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="1322:1437" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="1465:2055" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="1622:1961" ph="{...}" />
-                <marker date="1530621618673" expanded="true" signature="1771:1856" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-              <folding>
-                <marker date="1530621618670" expanded="false" signature="6:135" ph="..." />
-                <marker date="1530621618670" expanded="true" signature="160:5157" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="252:5155" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="991:1073" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1098:1143" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1169:1268" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1294:1661" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1406:1576" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1593:1651" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1778:2326" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1901:2194" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="1974:2046" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="2107:2180" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="2232:2289" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="2360:2763" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="2408:2468" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="2798:2934" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="2969:3520" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3016:3510" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3165:3326" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3347:3496" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3551:3886" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3605:3761" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3677:3747" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3794:3851" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3914:4032" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="3958:4022" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4058:4318" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4102:4163" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4180:4259" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4348:4754" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4654:4713" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4788:4922" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="4966:5059" ph="{...}" />
-                <marker date="1530621618670" expanded="true" signature="5090:5149" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultTrackableEventHandler.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
-              <folding>
-                <marker date="1530621919218" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
-                <marker date="1530621919218" expanded="false" signature="374:401" ph="..." />
-                <marker date="1530621919218" expanded="true" signature="403:697" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1530621919218" expanded="true" signature="779:4178" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="786:921" ph="PROTECTED_MEMBER_VARIABLES" />
-                <marker date="1530621919218" expanded="true" signature="927:1381" ph="UNITY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1530621919218" expanded="true" signature="998:1178" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="1218:1334" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="1387:2633" ph="PUBLIC_METHODS" />
-                <marker date="1530621919218" expanded="true" signature="1415:1565" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1530621919218" expanded="true" signature="1701:2599" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="1901:2036" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="2173:2306" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="2319:2593" ph="{...}" />
-                <marker date="1530621919218" expanded="true" signature="2342:2553" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-                <marker date="1530621919218" expanded="true" signature="2639:4176" ph="PROTECTED_METHODS" />
-                <marker date="1530621919218" expanded="true" signature="2710:3403" ph="{...}" />
-                <marker date="1530621919218" expanded="false" signature="2721:3330" ph="/* var rendererComponents = GetComponentsInChildren&lt;Renderer&gt;(true); ... */" />
-                <marker date="1530621919218" expanded="true" signature="3449:4139" ph="{...}" />
-                <marker date="1530621919218" expanded="false" signature="3456:4069" ph="/* var rendererComponents = GetComponentsInChildren&lt;Renderer&gt;(true); ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spawner.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <marker date="1530624218407" expanded="false" signature="6:78" ph="..." />
-                <marker date="1530624218407" expanded="true" signature="207:703" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CastleUIController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <marker date="1530605307926" expanded="false" signature="6:122" ph="..." />
-                <marker date="1530605307926" expanded="true" signature="174:1390" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="315:393" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="502:752" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="543:749" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="775:809" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="855:1388" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="1040:1093" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="1155:1382" ph="{...}" />
-                <marker date="1530605307926" expanded="true" signature="1237:1310" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Castle.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/Castle.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/Castle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <marker date="1531229924561" expanded="true" signature="57:387" ph="{...}" />
+                <marker date="1531229924561" expanded="true" signature="202:385" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tower.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Tower.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spawn.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/Spawn.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <marker date="1531301693415" expanded="true" signature="57:930" ph="{...}" />
+                <marker date="1531301693415" expanded="true" signature="194:928" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/EnemyController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding>
+                <marker date="1531309325030" expanded="true" signature="7:75" ph="..." />
+                <marker date="1531309325030" expanded="true" signature="114:1987" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="164:1985" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="416:676" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="477:666" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="707:969" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="763:842" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="859:959" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="999:1127" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="1160:1191" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="1242:1681" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="1300:1596" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="1613:1667" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="1702:1774" ph="{...}" />
+                <marker date="1531309325030" expanded="true" signature="1808:1979" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpawnController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/SpawnController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+              <folding>
+                <marker date="1531307204333" expanded="true" signature="6:66" ph="..." />
+                <marker date="1531307204333" expanded="true" signature="105:1919" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="156:1917" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="432:531" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="561:1018" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="1061:1559" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="1127:1549" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="1585:1659" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="1703:1911" ph="{...}" />
+                <marker date="1531307204333" expanded="true" signature="1770:1875" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TowerController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/TowerController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
               <folding>
-                <marker date="1530509293030" expanded="true" signature="51:370" ph="{...}" />
-                <marker date="1530509293030" expanded="true" signature="194:368" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="57:1314" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="108:1312" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="321:639" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="669:739" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="767:1137" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="1163:1239" ph="{...}" />
+                <marker date="1531293498882" expanded="true" signature="1273:1306" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/UIController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="61" column="64" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="64" />
+              <folding>
+                <marker date="1531306267864" expanded="false" signature="6:40" ph="..." />
+                <marker date="1531306267864" expanded="true" signature="79:1827" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="127:1825" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="383:542" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="608:846" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="896:1048" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="1088:1231" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="1272:1377" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="1406:1464" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="1541:1819" ph="{...}" />
+                <marker date="1531306267864" expanded="true" signature="1599:1809" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding>
+                <marker date="1531309667488" expanded="false" signature="6:147" ph="..." />
+                <marker date="1531309667488" expanded="true" signature="186:2491" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="280:2489" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="558:762" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="797:922" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="958:1176" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="1023:1141" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="1260:1503" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="1538:1840" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="1873:2023" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="2059:2156" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="2211:2372" ph="{...}" />
+                <marker date="1531309667488" expanded="true" signature="2423:2482" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CastleController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/CastleController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="66" />
+              <folding>
+                <marker date="1531306424778" expanded="false" signature="6:87" ph="..." />
+                <marker date="1531306424778" expanded="true" signature="126:1489" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="178:1487" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="339:600" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="401:590" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="630:953" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="986:1050" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="1104:1229" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="1265:1339" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="1364:1480" ph="{...}" />
+                <marker date="1531306424778" expanded="true" signature="1425:1470" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -236,29 +227,78 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EnemyPool</find>
+      <find>CountWayPoint</find>
+      <find>PathBuilder</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/c1/ad849779/VuforiaMonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/Castle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/CastleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Marker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PoolObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/3d/78cb2d4c/TrackableBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PoolObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Marker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PathBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/TowerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower/TowerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower/Tower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/c4/344c3b1b/Trackable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Castle/Castle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Tower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/MyTrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/3d/78cb2d4c/TrackableBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyTrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PoolObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Marker.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PathBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PoolObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/SpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/CastleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/Castle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/MyTrackableEventHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/TowerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/CastleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/SpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -272,19 +312,78 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CyberRussia" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CyberRussia" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TD_ImageTarget" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CyberRussia" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TD_ImageTarget" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CyberRussia" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TD_ImageTarget" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Spawn" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -303,11 +402,17 @@
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vuforia-TD-Example" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,11 +448,19 @@
       <option name="presentableId" value="Default" />
       <updated>1530601952555</updated>
       <workItem from="1530601956668" duration="8389000" />
+      <workItem from="1530816199722" duration="14549000" />
+      <workItem from="1530877692896" duration="4883000" />
+      <workItem from="1531050225222" duration="2407000" />
+      <workItem from="1531067393296" duration="10949000" />
+      <workItem from="1531136733493" duration="3797000" />
+      <workItem from="1531201198463" duration="19641000" />
+      <workItem from="1531289953692" duration="2658000" />
+      <workItem from="1531294647585" duration="6785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8389000" />
+    <option name="totallyTimeSpent" value="94278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,33 +472,58 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21319444" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" weight="0.33034825" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="NuGet" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -394,50 +532,74 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" initialLine="35">
+            <startOffsets>
+              <startOffset value="1223" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1224" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/Castle.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+          <folding>
+            <marker date="1530710226578" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530710226578" expanded="true" signature="104:1580" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="155:1578" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="283:345" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="482:543" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="567:860" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="903:1276" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="964:1241" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1303:1362" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1389:1473" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1501:1572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/3d/78cb2d4c/TrackableBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <marker date="1530611377709" expanded="true" signature="0:352" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1530611377709" expanded="false" signature="360:420" ph="..." />
-            <marker date="1530611377709" expanded="true" signature="439:7531" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="444:678" ph="/// The base class for all TrackableBehaviours in Vuforia ... " />
-            <marker date="1530611377709" expanded="true" signature="744:7529" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1365:1432" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1381:1426" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1438:1556" ph="/// The Trackable created at runtime that is augmented by this TrackableBehaviour ... " />
-            <marker date="1530611377709" expanded="true" signature="1595:1665" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1611:1659" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1752:1826" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1768:1820" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="1877:2084" ph="/// This method registers a new Tracker event handler at the Tracker. ... " />
-            <marker date="1530611377709" expanded="true" signature="2176:2353" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="2359:2505" ph="/// This method unregisters a Tracker event handler. ... " />
-            <marker date="1530611377709" expanded="true" signature="2599:2684" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="2690:2788" ph="/// Is triggered by the TrackerBehavior after it has updated. ... " />
-            <marker date="1530611377709" expanded="true" signature="2865:3181" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="3187:3413" ph="/// Is triggered by the StateManager after each render frame ... " />
-            <marker date="1530611377709" expanded="true" signature="3475:3487" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="3517:3905" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="3939:3989" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="4030:4084" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="4160:4172" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="4279:4311" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="4355:5206" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="4432:5181" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="4575:5173" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="5276:5678" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="5494:5653" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="5750:6156" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="5970:6131" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="6207:6528" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="6626:7109" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="7115:7294" ph="/// Information on the tracking status. Gives the primary reason about the ... " />
-            <marker date="1530611377709" expanded="true" signature="7321:7435" ph="{...}" />
-            <marker date="1530611377709" expanded="true" signature="7471:7525" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -448,189 +610,487 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/Castle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530509293030" expanded="true" signature="51:370" ph="{...}" />
-            <marker date="1530509293030" expanded="true" signature="194:368" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <marker date="1530605307926" expanded="false" signature="6:122" ph="..." />
-            <marker date="1530605307926" expanded="true" signature="174:1390" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="315:393" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="502:752" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="543:749" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="775:809" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="855:1388" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="1040:1093" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="1155:1382" ph="{...}" />
-            <marker date="1530605307926" expanded="true" signature="1237:1310" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <marker date="1530621618670" expanded="false" signature="6:135" ph="..." />
-            <marker date="1530621618670" expanded="true" signature="160:5157" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="252:5155" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="991:1073" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1098:1143" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1169:1268" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1294:1661" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1406:1576" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1593:1651" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1778:2326" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1901:2194" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="1974:2046" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="2107:2180" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="2232:2289" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="2360:2763" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="2408:2468" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="2798:2934" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="2969:3520" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3016:3510" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3165:3326" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3347:3496" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3551:3886" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3605:3761" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3677:3747" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3794:3851" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3914:4032" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="3958:4022" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4058:4318" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4102:4163" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4180:4259" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4348:4754" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4654:4713" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4788:4922" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="4966:5059" ph="{...}" />
-            <marker date="1530621618670" expanded="true" signature="5090:5149" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+        <state relative-caret-position="500">
+          <caret line="95" column="64" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
           <folding>
-            <marker date="1530621919218" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
-            <marker date="1530621919218" expanded="false" signature="374:401" ph="..." />
-            <marker date="1530621919218" expanded="true" signature="403:697" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1530621919218" expanded="true" signature="779:4178" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="786:921" ph="PROTECTED_MEMBER_VARIABLES" />
-            <marker date="1530621919218" expanded="true" signature="927:1381" ph="UNITY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1530621919218" expanded="true" signature="998:1178" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="1218:1334" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="1387:2633" ph="PUBLIC_METHODS" />
-            <marker date="1530621919218" expanded="true" signature="1415:1565" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1530621919218" expanded="true" signature="1701:2599" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="1901:2036" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="2173:2306" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="2319:2593" ph="{...}" />
-            <marker date="1530621919218" expanded="true" signature="2342:2553" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-            <marker date="1530621919218" expanded="true" signature="2639:4176" ph="PROTECTED_METHODS" />
-            <marker date="1530621919218" expanded="true" signature="2710:3403" ph="{...}" />
-            <marker date="1530621919218" expanded="false" signature="2721:3330" ph="/* var rendererComponents = GetComponentsInChildren&lt;Renderer&gt;(true); ... */" />
-            <marker date="1530621919218" expanded="true" signature="3449:4139" ph="{...}" />
-            <marker date="1530621919218" expanded="false" signature="3456:4069" ph="/* var rendererComponents = GetComponentsInChildren&lt;Renderer&gt;(true); ... */" />
+            <marker date="1530772385262" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+            <marker date="1530772385262" expanded="false" signature="374:401" ph="..." />
+            <marker date="1530772385262" expanded="true" signature="403:697" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1530772385262" expanded="true" signature="779:3999" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="786:921" ph="PROTECTED_MEMBER_VARIABLES" />
+            <marker date="1530772385262" expanded="false" signature="927:1381" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1530772385262" expanded="true" signature="998:1178" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="1218:1334" ph="{...}" />
+            <marker date="1530772385262" expanded="false" signature="1387:2633" ph="PUBLIC_METHODS" />
+            <marker date="1530772385262" expanded="true" signature="1415:1565" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1530772385262" expanded="true" signature="1701:2599" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="1901:2036" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="2173:2306" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="2319:2593" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="2342:2553" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1530772385262" expanded="false" signature="2639:3997" ph="PROTECTED_METHODS" />
+            <marker date="1530772385262" expanded="true" signature="2710:3308" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="3354:3960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/Castle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <marker date="1530710226578" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530710226578" expanded="true" signature="104:1580" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="155:1578" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="283:345" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="482:543" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="567:860" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="903:1276" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="964:1241" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1303:1362" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1389:1473" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1501:1572" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-          <folding>
-            <marker date="1530621618673" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530621618673" expanded="true" signature="78:2060" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="116:2058" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="413:571" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="451:567" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="480:539" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="601:761" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="643:753" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="694:719" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="788:928" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="829:872" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="880:923" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="957:1295" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="1002:1251" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="1259:1291" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="1322:1437" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="1465:2055" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="1622:1961" ph="{...}" />
-            <marker date="1530621618673" expanded="true" signature="1771:1856" ph="{...}" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/EnemyController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PoolObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyTrack.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PathBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/PoolObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Marker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PoolObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+        <state relative-caret-position="60">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower/Bullet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Marker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Bullet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding>
-            <marker date="1530605307927" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530605307927" expanded="true" signature="78:2849" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="108:2846" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="194:392" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="565:687" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="620:677" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="733:787" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="827:1059" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="1111:1668" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="1171:1542" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="1234:1528" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="1718:2273" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="1778:2148" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="1841:2134" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="2324:2835" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="2384:2732" ph="{...}" />
-            <marker date="1530605307927" expanded="true" signature="2447:2718" ph="{...}" />
+            <marker date="1531225237582" expanded="true" signature="100:1038" ph="{...}" />
+            <marker date="1531225237582" expanded="true" signature="351:506" ph="{...}" />
+            <marker date="1531225237582" expanded="true" signature="545:713" ph="{...}" />
+            <marker date="1531225237582" expanded="true" signature="741:837" ph="{...}" />
+            <marker date="1531225237582" expanded="true" signature="890:1032" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/CastleController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower/TowerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/c1/ad849779/VuforiaMonoBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/c4/344c3b1b/Trackable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F76AAE87-F55C-43FE-A7A5-4BD90F4DE808/3d/78cb2d4c/TrackableBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1530772385262" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+            <marker date="1530772385262" expanded="false" signature="374:401" ph="..." />
+            <marker date="1530772385262" expanded="true" signature="403:697" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1530772385262" expanded="true" signature="779:3999" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="786:921" ph="PROTECTED_MEMBER_VARIABLES" />
+            <marker date="1530772385262" expanded="false" signature="927:1381" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1530772385262" expanded="true" signature="998:1178" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="1218:1334" ph="{...}" />
+            <marker date="1530772385262" expanded="false" signature="1387:2633" ph="PUBLIC_METHODS" />
+            <marker date="1530772385262" expanded="true" signature="1415:1565" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1530772385262" expanded="true" signature="1701:2599" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="1901:2036" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="2173:2306" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="2319:2593" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="2342:2553" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1530772385262" expanded="false" signature="2639:3997" ph="PROTECTED_METHODS" />
+            <marker date="1530772385262" expanded="true" signature="2710:3308" ph="{...}" />
+            <marker date="1530772385262" expanded="true" signature="3354:3960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/MyTrackableEventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/Tower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <marker date="1530710226575" expanded="true" signature="51:571" ph="{...}" />
+            <marker date="1530710226575" expanded="true" signature="101:569" ph="{...}" />
+            <marker date="1530710226575" expanded="true" signature="210:483" ph="{...}" />
+            <marker date="1530710226575" expanded="true" signature="513:563" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/Castle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <marker date="1530710226575" expanded="true" signature="51:370" ph="{...}" />
+            <marker date="1530710226575" expanded="true" signature="194:368" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="27" column="22" selection-start-line="8" selection-start-column="4" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <marker date="1530624218407" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530624218407" expanded="true" signature="207:703" ph="{...}" />
+            <marker date="1530710226578" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530710226578" expanded="true" signature="207:703" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower/Tower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="7" selection-start-column="8" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <marker date="1530710226579" expanded="true" signature="44:698" ph="{...}" />
+            <marker date="1530710226579" expanded="true" signature="175:696" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Castle/CastleUIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1530710226576" expanded="false" signature="6:122" ph="..." />
+            <marker date="1530710226576" expanded="true" signature="174:1390" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="315:393" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="502:752" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="543:749" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="775:809" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="855:1388" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="1040:1093" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="1155:1382" ph="{...}" />
+            <marker date="1530710226576" expanded="true" signature="1237:1310" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/SpawnController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+        <state relative-caret-position="435">
+          <caret line="31" column="58" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="58" />
           <folding>
-            <marker date="1530625664070" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530625664070" expanded="true" signature="104:1580" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="155:1578" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="283:345" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="482:543" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="567:860" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="903:1276" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="964:1241" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="1303:1362" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="1389:1473" ph="{...}" />
-            <marker date="1530625664070" expanded="true" signature="1501:1572" ph="{...}" />
+            <marker date="1530710226578" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530710226578" expanded="true" signature="104:1580" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="155:1578" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="283:345" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="482:543" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="567:860" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="903:1276" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="964:1241" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1303:1362" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1389:1473" ph="{...}" />
+            <marker date="1530710226578" expanded="true" signature="1501:1572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Tower/TowerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <marker date="1531293498882" expanded="true" signature="57:1314" ph="{...}" />
+            <marker date="1531293498882" expanded="true" signature="108:1312" ph="{...}" />
+            <marker date="1531293498882" expanded="true" signature="321:639" ph="{...}" />
+            <marker date="1531293498882" expanded="true" signature="669:739" ph="{...}" />
+            <marker date="1531293498882" expanded="true" signature="767:1137" ph="{...}" />
+            <marker date="1531293498882" expanded="true" signature="1163:1239" ph="{...}" />
+            <marker date="1531293498882" expanded="true" signature="1273:1306" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/CastleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <marker date="1531306424778" expanded="false" signature="6:87" ph="..." />
+            <marker date="1531306424778" expanded="true" signature="126:1489" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="178:1487" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="339:600" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="401:590" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="630:953" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="986:1050" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="1104:1229" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="1265:1339" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="1364:1480" ph="{...}" />
+            <marker date="1531306424778" expanded="true" signature="1425:1470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Castle/Castle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1531229924561" expanded="true" signature="57:387" ph="{...}" />
+            <marker date="1531229924561" expanded="true" signature="202:385" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1531222020044" expanded="false" signature="6:52" ph="..." />
+            <marker date="1531222020044" expanded="true" signature="78:1867" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="116:1865" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="412:570" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="450:566" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="479:538" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="595:735" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="636:679" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="687:730" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="764:1102" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="809:1058" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="1066:1098" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="1129:1244" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="1272:1862" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="1429:1768" ph="{...}" />
+            <marker date="1531222020044" expanded="true" signature="1578:1663" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/Spawn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <marker date="1531301693415" expanded="true" signature="57:930" ph="{...}" />
+            <marker date="1531301693415" expanded="true" signature="194:928" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/SpawnController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <marker date="1531307204333" expanded="true" signature="6:66" ph="..." />
+            <marker date="1531307204333" expanded="true" signature="105:1919" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="156:1917" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="432:531" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="561:1018" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="1061:1559" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="1127:1549" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="1585:1659" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="1703:1911" ph="{...}" />
+            <marker date="1531307204333" expanded="true" signature="1770:1875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/UIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="64" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="64" />
+          <folding>
+            <marker date="1531306267864" expanded="false" signature="6:40" ph="..." />
+            <marker date="1531306267864" expanded="true" signature="79:1827" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="127:1825" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="383:542" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="608:846" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="896:1048" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="1088:1231" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="1272:1377" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="1406:1464" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="1541:1819" ph="{...}" />
+            <marker date="1531306267864" expanded="true" signature="1599:1809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/Spawn/EnemyController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <marker date="1531309325030" expanded="true" signature="7:75" ph="..." />
+            <marker date="1531309325030" expanded="true" signature="114:1987" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="164:1985" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="416:676" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="477:666" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="707:969" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="763:842" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="859:959" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="999:1127" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="1160:1191" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="1242:1681" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="1300:1596" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="1613:1667" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="1702:1774" ph="{...}" />
+            <marker date="1531309325030" expanded="true" signature="1808:1979" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CyberRussia/TD_ImageTarget/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <marker date="1531309667488" expanded="false" signature="6:147" ph="..." />
+            <marker date="1531309667488" expanded="true" signature="186:2491" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="280:2489" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="558:762" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="797:922" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="958:1176" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="1023:1141" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="1260:1503" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="1538:1840" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="1873:2023" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="2059:2156" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="2211:2372" ph="{...}" />
+            <marker date="1531309667488" expanded="true" signature="2423:2482" ph="{...}" />
           </folding>
         </state>
       </provider>

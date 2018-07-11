@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd974630da44375b5081e4251f577f6, type: 3}
+  m_Name: Spawner2
+  m_EditorClassIdentifier: 
+  ModelPrefab: {fileID: 1922383690382232, guid: b50012e1dade74b088b0226d7dac1c4c,
+    type: 2}
+  EnemyPrefab: {fileID: 1152619669801224, guid: d460d50c2e5244dcebc643c8445c365c,
+    type: 2}
+  CountEnemy: 8
+  Health: 100
+  Speedenemy: 2.3
+  RateInstantce: 0.2
+  Damage: 1

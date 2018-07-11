@@ -98,11 +98,6 @@ namespace SupremumStudio
             obj.SetActive(true);
             return obj;
         }
-
-
-
-
-
     }
 
 }
