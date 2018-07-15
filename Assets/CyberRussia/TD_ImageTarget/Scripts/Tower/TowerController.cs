@@ -41,5 +41,10 @@ namespace CyberRussia.ARTDImageTarget
         {
             
         }
+
+        private void OnDestroy()
+        {
+            GameManager.OnStartGame -= StartFier;
+        }
     }
 }

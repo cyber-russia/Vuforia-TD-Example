@@ -19,8 +19,8 @@ namespace CyberRussia.ARTDImageTarget
     {
         public TypeMarker type;
 
-        public static event DelegatMarker OnEnableMarker;
-        public static event DelegatMarker OnDisableMarker;
+        public static event DelegatMarker OnEnableMarker; 
+        public static event DelegatMarker OnDisableMarker; 
         public static event DelegatMarker OnAddMarkerToPath;
         
         private void OnEnable()
@@ -36,11 +36,6 @@ namespace CyberRussia.ARTDImageTarget
         private void OnDisable()
         {
             if(OnDisableMarker != null) OnDisableMarker(this);
-//            Debug.Log("Disable");
-        }
-
-        private void Start()
-        {
         }
     }
     

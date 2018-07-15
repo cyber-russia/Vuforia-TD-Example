@@ -40,22 +40,13 @@ namespace CyberRussia.ARTDImageTarget
         
         void OnTriggerEnter (Collider other)
         {
-            Debug.Log("OnTrigger");
             Health -= other.GetComponent<EnemyController >().Damage;
+            other.gameObject.SetActive(false );
         }
         
         public void Dath()
         {
              GameManager.EndGame("Замок завоеван");  
         }
-
-        void SetHpBar()
-        {
-            if (_hpBar != null && _hpText != null)
-            {
-                
-            }
-        }
-
     }
 }

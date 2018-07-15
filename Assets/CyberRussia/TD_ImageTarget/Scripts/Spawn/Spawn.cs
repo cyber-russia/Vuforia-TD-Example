@@ -11,7 +11,6 @@ namespace CyberRussia.ARTDImageTarget
         [Header("Перенесите сюда модель Enemy")]
         public GameObject EnemyPrefab;
         
-        
         [Header("Укажите колличество Enemy")] [Range(1, 50)]
         public int CountEnemy;
 	

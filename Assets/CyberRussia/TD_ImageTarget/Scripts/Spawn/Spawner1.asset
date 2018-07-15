@@ -11,12 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd974630da44375b5081e4251f577f6, type: 3}
   m_Name: Spawner1
   m_EditorClassIdentifier: 
-  ModelPrefab: {fileID: 1922383690382232, guid: b50012e1dade74b088b0226d7dac1c4c,
+  ModelPrefab: {fileID: 1191454176656590, guid: a43633c85529a1648855996d724943e3,
     type: 2}
   EnemyPrefab: {fileID: 1019728984739728, guid: df2371bff1d0c0c4c9b68014920b6e83,
     type: 2}
-  CountEnemy: 23
+  CountEnemy: 20
   Health: 100
-  Speedenemy: 2.4
-  RateInstantce: 0.7
+  Speedenemy: 1.9
+  RateInstantce: 0.3
   Damage: 3

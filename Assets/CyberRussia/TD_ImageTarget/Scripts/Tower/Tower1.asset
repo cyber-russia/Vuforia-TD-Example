@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TowerModel: {fileID: 1970524261667162, guid: db30ca4b820335444ba748ea49b8f3d1, type: 2}
   Bullet: {fileID: 1174247514728492, guid: 75e00ac0376f1490e81ebcdbeb71fda8, type: 2}
-  ShooterSpeed: 39.8
-  Rate: 0.01
+  ShooterSpeed: 5
+  Rate: 0.5
   SprayAngle: 8.9
-  Damage: 9
+  Damage: 30

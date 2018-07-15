@@ -8,7 +8,7 @@ namespace CyberRussia.ARTDImageTarget
     public class EnemyController: MonoBehaviour
     {
         public PathBuilder PathPoint;
-        public float speed = 1;
+        public float speed;
         private int index;
         public int Damage;
         private int _health;
@@ -33,11 +33,7 @@ namespace CyberRussia.ARTDImageTarget
             {
                 MoveToPath(PathPoint.path[index]);
             }
-            else
-            {
-                index = 0;
-                gameObject.SetActive(false);
-            }
+           
         }
 
         private void Awake()
@@ -46,14 +42,9 @@ namespace CyberRussia.ARTDImageTarget
             _hpText = GetComponentInChildren<Text>();
         }
 
-        private void OnEnable()
-        {
-          
-        }
-
         private void MoveToPath(Vector3 position)
         {
-            if (transform.position != position)
+            if ((transform.position - position).magnitude  > 0.1)
             {
                 transform.LookAt(position); //это работает только с правильно подобранными моделями. В альтернативе надо поворачивать только по одной оси.
 
@@ -71,7 +62,7 @@ namespace CyberRussia.ARTDImageTarget
         }
 
         private void OnDisable()
-        {
+        {          
             index = 0;
             if(SpawnController.CheckEndGame() && GameManager.isStart)
                 GameManager.EndGame("Замок не завоеван");

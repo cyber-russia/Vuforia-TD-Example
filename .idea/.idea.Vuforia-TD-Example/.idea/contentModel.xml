@@ -58,27 +58,6 @@
             </e>
           </e>
         </e>
-        <e p="Scripts" t="Include">
-          <e p="Castle" t="Include">
-            <e p="Castle.cs" t="Include" />
-            <e p="CastleController.cs" t="Include" />
-            <e p="CastleUIController.cs" t="Include" />
-          </e>
-          <e p="GameManager.cs" t="Include" />
-          <e p="Marker.cs" t="Include" />
-          <e p="PathBuilder.cs" t="Include" />
-          <e p="PoolObject.cs" t="Include" />
-          <e p="Spawner" t="Include">
-            <e p="Enemy.cs" t="Include" />
-            <e p="SpawnController.cs" t="Include" />
-            <e p="Spawner.cs" t="Include" />
-          </e>
-          <e p="Tower" t="Include">
-            <e p="Bullet.cs" t="Include" />
-            <e p="Tower.cs" t="Include" />
-            <e p="TowerController.cs" t="Include" />
-          </e>
-        </e>
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
             <e p="Castle_01.xml" t="Include" />

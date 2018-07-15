@@ -32,7 +32,6 @@ namespace CyberRussia.ARTDImageTarget
         void AddMarker()
         {
             Markers = Resources.FindObjectsOfTypeAll<Marker>().ToList();
-            print("AddMarker");
         }
 
         public bool CheckAllScan()
@@ -88,10 +87,17 @@ namespace CyberRussia.ARTDImageTarget
             Time.timeScale = 0;
         }
 
-        public void Restart() // TODO не работает
+        public void Restart()
         {
+            End = false;
+            isStart = false;
             SceneManager.LoadScene(0);
         }
 
+        private void OnDestroy()
+        {
+            Marker.OnEnableMarker -= TrackedMarker;
+            Marker.OnDisableMarker -= LostMarker;
+        }
     }
 }
